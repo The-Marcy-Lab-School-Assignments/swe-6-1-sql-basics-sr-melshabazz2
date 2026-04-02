@@ -11,6 +11,7 @@ What is a database? Why do we use one instead of storing data in a JavaScript ar
 **Your answer:**
 
 ---
+- A ***Database*** is a structured collection of data that is organized in a manner for easy retrieval. We use databases instead of a JS array in our server because arrays are risky while a database is persistent, ensuring that data is written to a permanent storage. Databases are engineered to handle petabytes of data, while an arrays storage is much smaller and can crash the server due to running out of memory. In arrays any part of your code may corrupt the server while databases enforce strict rules to ensure data follows a specific format and offers access control, allowing those who has access to see or change information.
 
 ## Question 2
 
